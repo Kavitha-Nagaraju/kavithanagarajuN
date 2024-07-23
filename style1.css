@@ -1,0 +1,124 @@
+.img{
+    width: 250px;
+    height: 200px;
+    display: inline-block;
+}
+#h1{
+    background-image: url(./images/uniq.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1500px;
+    text-align: center;
+    font-size:3rem;
+    color: blue;
+    background-position: 0cqmax;
+    border:groove;
+    border-color: brown;
+    border-radius: 20px;
+    border-width: 5px;
+    box-shadow:5px 5px 5px black;
+    text-shadow:3px 3px 3px black ;
+    
+}
+
+.div{
+    display: inline-block;
+    height:300px;
+}
+#a{
+    text-align: center;
+    margin-left: 70px;
+    color:red
+}
+#a1{
+    text-align: center;
+    color: red;
+    margin-left: 1300px;
+}
+#a2{
+    display: inline-block;
+    text-align: center;
+    color:red;
+    margin-left: 70px;
+}
+
+.p{
+    display: inline-block;
+    width:1200px;
+    height:200px;
+    text-align: justify;
+    overflow:hidden;
+}
+#home{
+    background-color: black;
+    text-align: center;
+    width:50px;
+    font-size: 1rem;
+    color:white
+}
+img{
+    width:400px;
+    height:300px;
+    border:outset ;
+    border-color: blueviolet;
+}
+div{
+    display: inline-block;
+    color:cadetblue;
+}
+h2{
+    text-align: center;
+    margin-left: 50px;
+}
+p{
+    width:400px;
+    height:300px;
+    overflow: auto;
+}
+p::first-letter{
+    color:blue
+}
+#Blue::first-line{
+    color:aqua;
+}
+#Blue::selection{
+    background-color: chartreuse;
+    color:red
+}
+h1::before{
+    content:"🍀";
+
+}
+a::after{
+    content:"🌄" ;
+}
+#body{
+    background-color: cadetblue;
+}
+
+#h2{
+    margin-left:2px;
+}
+#p{
+    text-align: center;
+    width:1500px;
+    height:100px;
+    overflow:scroll;
+    opacity: 20%;
+}
+P:hover{
+    background-color: black;
+}
+a:visited{
+    color:deeppink;
+}
+a:link{
+    background-color:yellow;
+}
+a:active{
+    color:black;
+}
+a::marker{
+    content:"🌻";
+}
+
